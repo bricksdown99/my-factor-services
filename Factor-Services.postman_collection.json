@@ -1,0 +1,128 @@
+{
+	"id": "c8c5d8a8-3dd1-6485-7403-5c5d49b758da",
+	"name": "Factor-Services",
+	"description": "",
+	"order": [
+		"cde238cb-8f0a-16d2-f8af-78624382f909",
+		"26b3de02-6a93-fee3-2ba0-a0704df0b4c6",
+		"11fab033-6886-fc36-fc2d-9e2426fad8fd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1550405173159,
+	"owner": "5148726",
+	"public": false,
+	"requests": [
+		{
+			"id": "11fab033-6886-fc36-fc2d-9e2426fad8fd",
+			"headers": "Content-Type: application/json\nAuthorization: Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/factor-services",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8c5d8a8-3dd1-6485-7403-5c5d49b758da",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Post-Marikina-Location",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550405232967,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"floodFactor\": 3,\n    \"buildingSafetyFactor\": 4,\n    \"location\": \"QC\"\n}"
+		},
+		{
+			"id": "26b3de02-6a93-fee3-2ba0-a0704df0b4c6",
+			"headers": "Content-Type: application/json\nAuthorization: Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/factor-services",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8c5d8a8-3dd1-6485-7403-5c5d49b758da",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Post-QC-Location",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550405218923,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"floodFactor\": 3,\n    \"buildingSafetyFactor\": 4,\n    \"location\": \"QC\"\n}"
+		},
+		{
+			"id": "cde238cb-8f0a-16d2-f8af-78624382f909",
+			"headers": "Content-Type: application/json\nAuthorization: Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic d3JvbmctdXNlcm5hbWU6d3Jvbmc=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/factor-services",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8c5d8a8-3dd1-6485-7403-5c5d49b758da",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Post-Marikina-Location",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550405205196,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"floodFactor\": 3,\n    \"buildingSafetyFactor\": 4,\n    \"location\": \"Marikina\"\n}"
+		}
+	]
+}
