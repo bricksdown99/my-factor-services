@@ -2,6 +2,7 @@
 
 ## Usage
 Option 1: $java -jar my-factor-services-0.0.1-SNAPSHOT.jar
+
 Option 2: Eclipse RestfulWebServicesApplication.java -> Run As -> Java Application 
 
 ## Example
@@ -30,6 +31,7 @@ Option 2: Eclipse RestfulWebServicesApplication.java -> Run As -> Java Applicati
 2. AOP is used to log every method calls from the base package com.microservices
 3. The factor service will receive all the 3 factors in a JSON object model (Example JSON object model shown above)
 4. The factor service will delegate the calculation responsibility by calling the endpoint corresponding to the requested location specified in the POST request
+
     endpoint.locPasig=http://localhost:8080/smartratingservice
     endpoint.locQC=http://localhost:8080/excellentratingservice
     endpoint.locOthers=http://localhost:8080/idoeverythingtratingservice
